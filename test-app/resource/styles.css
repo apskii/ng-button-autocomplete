@@ -1,0 +1,15 @@
+/*.dropdown-menu { overflow-y: visible; }*/
+.inspection-pane {
+    min-width: 460px;
+}
+
+.small   { width: 30%;  }
+.smallx  { width: 45%;  }
+.medium  { width: 60%;  }
+.mediumx { width: 75%;  }
+.large   { width: 90%;  }
+.largex  { width: 100%; }
+
+input    { width: 100%; }
+select   { width: 100%; }
+textarea { width: 100%; }

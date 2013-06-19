@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ng-autocomplete</title>
+    <link rel="stylesheet" href="resource/jquery/jquery-ui.css">
+    <link rel="stylesheet" href="resource/bootstrap.css">
+    <script src="lib/jquery.js"></script>
+    <script src="lib/jquery-ui.js"></script>
+    <script src="lib/bootstrap.js"></script>
+    <script src="lib/angular.js"></script>
+    <script type="text/javascript" src="js/ng-button-autocomplete.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body ng-app="myApp">
+    <div ng-controller="MyCtrl">
+        <input ng-model="x">
+        <div class="control-group input-append">
+            <label class="control-label">Btn autocomplete: </label>
+            <div class="controls">
+                <p ng-button-autocomplete source="xs" value="x"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
